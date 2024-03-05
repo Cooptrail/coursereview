@@ -1,0 +1,19 @@
+@keyframes Slide{
+    from{
+        margin-left: 100%;
+    }
+    to{margin-right: 0%;
+    
+    }
+}
+
+
+
+
+
+#WIL{
+    position: absolute;
+    animation-name: Slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+}
